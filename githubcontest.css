@@ -1,0 +1,96 @@
+*{
+    margin : 0;
+    padding: o;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    width: 130px;
+    height: 50px;
+    background-color: #4eb74e;
+    border: 1px solid #4eb74e;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkgreen;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.d-none{
+    display: none;
+}
+input{
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.continue-btn{
+    width: 68%;
+    height: 35px;
+    padding: 5px;
+}
+.players-info{
+    text-align: center;
+    margin: 20px auto;
+    justify-items: center;
+}
+table{
+    text-align: center;
+    width: 450px;
+    border: none;
+    border-collapse: collapse;
+    margin: 10px 10px;
+}
+img{
+    width: 400px;
+    height: 350px;
+}
+tr, td, th{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.initiate, .start-over{
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    padding: 5px;
+}
+.reselect{
+    width: 170px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+}
+.reselect:hover{
+    background-color: cadetblue;
+}
+
+.flex-users{
+    display: flex;
+    flex-flow: wrap;
+    width: 80%;
+    margin: 10px auto;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+
+
+
